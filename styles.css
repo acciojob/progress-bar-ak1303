@@ -44,3 +44,7 @@ button{
 .line.active{
 	background-color:#0388fc; 
 }
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed; /* Show not-allowed cursor for disabled button */
+}
